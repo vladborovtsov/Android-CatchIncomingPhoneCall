@@ -17,18 +17,13 @@
             </intent-filter>
         </activity>
 
-        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-        <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
 
-        <receiver android:name=".CallBroadCastReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.PHONE_STATE" />
-                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
-            </intent-filter>
-        </receiver>
+
+
     </application>
-    
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
 
 
 
